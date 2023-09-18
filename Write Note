@@ -1,0 +1,85 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://gopalsoftware.github.io/Notebook.github.io/wrnt.html
+Subject: Write Note
+Date: Sun, 10 Sep 2023 03:53:39 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--KsjzNdsx95IXwxHR4YivAsGDnmmVe54ca9XSGULWe0----"
+
+
+------MultipartBoundary--KsjzNdsx95IXwxHR4YivAsGDnmmVe54ca9XSGULWe0----
+Content-Type: text/html
+Content-ID: <frame-280D423F15FF4091E2B18F8283C74714@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://gopalsoftware.github.io/Notebook.github.io/wrnt.html
+
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-bd5ac7db-0665-4af6-a657-1df5222f8dbd@mhtml.blink" />
+  <title>Write Note</title>
+  
+</head>
+<body>
+  <div class="header">
+    <h1>Create a Note</h1>
+  </div>
+
+  <div class="note-container">
+    <div class="header">
+      <input type="text" id="noteHeader" placeholder="Enter header">
+    </div>
+    <div class="note-toolbar">
+      <button class="button"><b>B</b></button>
+      <button class="button"><i>I</i></button>
+      <button class="button"><u>U</u></button>
+      <input type="number" class="button" min="1" max="100" placeholder="Font Size">
+      <input type="color" class="button" title="Font Color">
+      <input type="color" class="button" title="Page Background">
+      <select class="button">
+        <option value="">Text Alignment</option>
+        <option value="left">Left</option>
+        <option value="center">Center</option>
+        <option value="right">Right</option>
+        <option value="justify">Justify</option>
+      </select>
+    </div>
+    <div class="note-content" contenteditable="true" id="noteContent" placeholder="Enter your note"></div>
+    <button class="button">Save</button>
+    <a href="https://gopalsoftware.github.io/Notebook.github.io/note.html" target="_blank">
+      <button class="button">View saved notes</button>
+    </a>
+    
+    
+    <a href="https://gopalsoftware.github.io/Notebook.github.io/index.html" target="_blank">
+        <button class="button">Go Back ↪</button>
+    </a>
+  </div>
+
+  
+
+
+</body></html>
+------MultipartBoundary--KsjzNdsx95IXwxHR4YivAsGDnmmVe54ca9XSGULWe0----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-bd5ac7db-0665-4af6-a657-1df5222f8dbd@mhtml.blink
+
+@charset "utf-8";
+
+body { font-family: Arial, sans-serif; margin: 0px; padding: 0px; }
+
+.header { padding: 10px; background-color: rgb(241, 241, 241); }
+
+.note-container { padding: 20px; }
+
+.button { padding: 10px; background-color: rgb(76, 175, 80); color: white; border: none; cursor: pointer; margin-right: 5px; }
+
+.button:hover { background-color: rgb(69, 160, 73); }
+
+#noteHeader { font-size: 24px; padding: 5px; border-top: none; border-right: none; border-left: none; border-image: initial; border-bottom: 1px solid rgb(221, 221, 221); margin-bottom: 20px; width: 100%; }
+
+#noteContent { font-size: 18px; padding: 10px; border: 1px solid rgb(221, 221, 221); margin-bottom: 20px; width: 100%; resize: vertical; height: 100%; background: rgb(255, 190, 149); cursor: text; }
+
+.note-toolbar { margin-bottom: 10px; }
+
+.note-content { min-height: 200px; border: 1px solid rgb(221, 221, 221); padding: 10px; }
+------MultipartBoundary--KsjzNdsx95IXwxHR4YivAsGDnmmVe54ca9XSGULWe0------
